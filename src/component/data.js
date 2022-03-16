@@ -1,0 +1,20 @@
+ export const data = [
+	{
+	id:1,
+	name:"wael",
+	userName:"wael317",
+	email:"wael317@gmail.com"
+	},
+	{
+	id:2,
+	name:"yousef",
+	userName:"youssef317",
+	email:"youssef317@gmail.com"
+	},
+	{
+	id:3,
+	name:"ali",
+	userName:"ali317",
+	email:"ali317@gmail.com"
+	}
+ ]

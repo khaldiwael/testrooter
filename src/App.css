@@ -1,0 +1,17 @@
+.compt{
+  
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 10px;
+  
+}
+.profile{
+  font-family: 'Courier New', Courier, monospace, Helvetica, sans-serif;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  
+}
+.details{
+  background-color: aqua;
+}
