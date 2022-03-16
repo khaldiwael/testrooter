@@ -1,16 +1,13 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import {data} from "./data"
 import '../App.css'
 
 function FindUser(username){
-  // let { username } = useParams();
   let T = data.filter(u => u.id === parseInt(username))
-  // console.log(T,' , T.id:',  T[0].id)
   return T[0]
 }
 function Profile() {
-//   let navigate = useNavigate();
   let { username } = useParams();
   let user = FindUser(username);
   return (
